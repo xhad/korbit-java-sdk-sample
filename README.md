@@ -1,6 +1,24 @@
 How to Use 
 ==========
 
+환경변수 설정하기
+-----------------
+우선, KORBIT_API_PORT 환경변수를 설정해야 합니다.
+api.korbit.co.kr:8080 (korbitdevday.co.kr) 로 접속하기 위해서는, KORBIT_API_PORT를 8080으로 설정하세요.
+api.korbit.co.kr (korbit.co.kr)로 접속하기 위해서는 KORBIT_API_PORT를 443으로 설정하세요.
+
+그 다음 KORBIT_API_KEY과 KORBIT_API_SECRET환경변수를 설정해야 합니다.
+key를 얻기 위해서는 다음 URL을 참고하세요.
+https://bitbucket.org/korbit/korbit-api/wiki/Home
+
+마지막으로, KORBIT_API_USERNAME과 KORBIT_API_PASSWORD를 설정해야 합니다.
+api.korbit.co.kr:8080 로 접속하시려면, korbitdevday.co.kr에 가입한 email과 암호로 세팅하면 됩니다.
+api.korbit.co.kr로 접속하시려면, www.korbit.co.kr에 가입한 email과 암호로 세팅하면 됩니다.
+
+실행하기
+--------
+위와 같이 환경변수를 설정한 후에 run.sh를 실행하면 됩니다.
+
 Set Environment Variables
 -------------------------
 You need to set KORBIT_API_PORT environment variable.
