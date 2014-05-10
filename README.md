@@ -29,6 +29,51 @@ api.korbit.co.kr로 접속하시려면, www.korbit.co.kr에 가입한 email과 �
 ------------------
 https://github.com/Kangmo/korbit-java-sdk-sample/blob/master/src/main/java/com/test/example/App.java
 
+프로젝트 새로 만들기
+--------------------
+샘플 프로젝트를 사용하는 대신, 프로젝트를 새로 만들려면(Ex> 이클립스 사용) 다음과 같은 작업들을 해주면 됩니다.
+
+1. Korbit SDK를 다운받습니다.
+```
+wget https://github.com/Kangmo/korbit-scala-sdk/releases/download/v0.1.0-theta/korbit-sdk-v0.1.0-theta.jar
+```
+
+2. 다운받은 SDK를 Maven으로 설치합니다.
+```
+mvn install:install-file -Dfile=korbit-sdk-v0.1.0-theta.jar -DgroupId=org.kangmo.tradeapi -DartifactId=korbit-sdk -Dversion=0.1.0 -Dpackaging=jar
+```
+
+2. 다음과 같이 Maven 디펜던시 설정을 합니다.
+```
+  <dependencies>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.10</artifactId>
+      <version>2.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.kangmo.tradeapi</groupId>
+      <artifactId>korbit-sdk</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.10.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-scala_2.10</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.3.3</version>
+    </dependency>
+  </dependencies>
+```
+
 Set Environment Variables
 -------------------------
 You need to set KORBIT_API_PORT environment variable.
