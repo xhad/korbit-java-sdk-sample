@@ -25,6 +25,10 @@ api.korbit.co.kr로 접속하시려면, www.korbit.co.kr에 가입한 email과 �
 --------
 위와 같이 환경변수를 설정한 후에 run.sh를 실행하면 됩니다.
 
+샘플 소스코드 위치
+------------------
+https://github.com/Kangmo/korbit-java-sdk-sample/blob/master/src/main/java/com/test/example/App.java
+
 Set Environment Variables
 -------------------------
 You need to set KORBIT_API_PORT environment variable.
@@ -42,3 +46,7 @@ To connect to api.korbit.co.kr, use your username and password on www.korbit.co.
 How to run
 ----------
 After setting above environment variables, simply execute run.sh
+
+Location of Sample Source Code
+------------------------------
+https://github.com/Kangmo/korbit-java-sdk-sample/blob/master/src/main/java/com/test/example/App.java
