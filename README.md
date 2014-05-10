@@ -42,19 +42,19 @@ https://github.com/Kangmo/korbit-java-sdk-sample/blob/master/src/main/java/com/t
 
 프로젝트 새로 만들기
 --------------------
-샘플 프로젝트를 사용하는 대신, 프로젝트를 새로 만들려면(Ex> 이클립스 사용) 다음과 같은 작업들을 해주면 됩니다.
+샘플 프로젝트의 run.sh를 사용하는 대신, 프로젝트를 새로 만들려면(Ex> 이클립스 사용) 다음과 같은 작업들을 해주면 됩니다.
 
-1. Korbit SDK를 다운받습니다.
+* Korbit SDK를 다운받습니다.
 ```
 wget https://github.com/Kangmo/korbit-scala-sdk/releases/download/v0.1.0-theta/korbit-sdk-v0.1.0-theta.jar
 ```
 
-2. 다운받은 SDK를 Maven으로 설치합니다.
+* 다운받은 SDK를 Maven으로 설치합니다.
 ```
 mvn install:install-file -Dfile=korbit-sdk-v0.1.0-theta.jar -DgroupId=org.kangmo.tradeapi -DartifactId=korbit-sdk -Dversion=0.1.0 -Dpackaging=jar
 ```
 
-2. 다음과 같이 Maven 디펜던시 설정을 합니다.
+* 다음과 같이 Maven 디펜던시 설정을 합니다.
 ```
   <dependencies>
     <dependency>
