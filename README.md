@@ -18,7 +18,7 @@ key를 얻기 위해서는 다음 URL을 참고하세요.
 https://bitbucket.org/korbit/korbit-api/wiki/Home
 
 마지막으로, KORBIT_API_USERNAME과 KORBIT_API_PASSWORD를 설정해야 합니다.
-api.korbit.co.kr:8080 로 접속하시려면, korbitdevday.co.kr에 가입한 email과 암호로 세팅하면 됩니다.
+api.korbit.co.kr:8080 로 접속하시려면, korbitdevday.herokuapp.com에 가입한 email과 암호로 세팅하면 됩니다.
 api.korbit.co.kr로 접속하시려면, www.korbit.co.kr에 가입한 email과 암호로 세팅하면 됩니다.
 
 실행하기
