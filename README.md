@@ -27,8 +27,11 @@ api.korbit.co.kr로 접속하시려면, www.korbit.co.kr에 가입한 email과 �
 
 문제점 해결하기
 ---------------
-실행시 다음과 같은 오류가 나는 경우에는, 아래 링크에 나온 대로 명령 두 줄 실행해주시면 문제가 해결됩니다.
+run.sh 실행후 다음과 같은 오류가 나는 경우에는, 아래 링크에 나온 대로 명령 두 줄 실행해주시면 문제가 해결됩니다.
+
+```
 sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+```
 
 문제 해결 링크 :
 http://notes.richdougherty.com/2013/09/adding-godaddy-g2-root-cert-to-jdk-7.html
