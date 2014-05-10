@@ -10,8 +10,8 @@ git clone https://github.com/Kangmo/korbit-java-sdk-sample
 환경변수 설정하기
 -----------------
 우선, KORBIT_API_PORT 환경변수를 설정해야 합니다.
-api.korbit.co.kr:8080 (korbitdevday.co.kr) 로 접속하기 위해서는, KORBIT_API_PORT를 8080으로 설정하세요.
-api.korbit.co.kr (korbit.co.kr)로 접속하기 위해서는 KORBIT_API_PORT를 443으로 설정하세요.
+api.korbit.co.kr:8080 (korbitdevday.herokuapp.com) 로 접속하기 위해서는, KORBIT_API_PORT를 8080으로 설정하세요.
+api.korbit.co.kr (www.korbit.co.kr)로 접속하기 위해서는 KORBIT_API_PORT를 443으로 설정하세요.
 
 그 다음 KORBIT_API_KEY과 KORBIT_API_SECRET환경변수를 설정해야 합니다.
 key를 얻기 위해서는 다음 URL을 참고하세요.
