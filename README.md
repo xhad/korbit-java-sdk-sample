@@ -1,6 +1,12 @@
 How to Use 
 ==========
 
+샘플소스 다운받기
+-----------------
+```
+git clone https://github.com/Kangmo/korbit-java-sdk-sample
+```
+
 환경변수 설정하기
 -----------------
 우선, KORBIT_API_PORT 환경변수를 설정해야 합니다.
